@@ -2,6 +2,12 @@
   padding: 0rem;
 }
 
+.header-icons {
+  color: #807ee9;
+  margin-top: -1rem;
+  padding-left: 1rem;
+}
+
 .footer-icons {
   color: #807ee9;
 }
