@@ -65,6 +65,9 @@
       <main style="background-color: #282828">
         <section>
           <div class="container">
+
+            <!-- Alert -->
+
             <div class="row">
               <div class="col">
                 <div
@@ -90,14 +93,71 @@
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col">
-                <h5 class="text-secondary">
-                  Hey there, this is a placeholder, I'm currenly working on
-                  implementing a vertical carousel here !
-                </h5>
+
+            <!-- Carousel -->
+
+            <!-- Carousel -->
+
+            <div
+            id="carouselControls"
+            class="carousel slide carousel-fade"
+            data-ride="carousel"
+          >
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="10000">
+                <img
+                  src="..\..\img\logos\Dev’Ovultion_Logo.PNG"
+                  class="d-block w-100"
+                  alt="Dev'Olution Logo" 
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Dev'Olution</h5>
+                  <p>This is a carousel caption example</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="10000">
+                <img
+                  src="..\..\img\logos\Queen_Of_Mean_Logo.PNG"
+                  class="d-block w-100"
+                  alt="Queen of Mean logo"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Queen of Mean</h5>
+                  <p>This is a carousel caption example</p>
+                </div>
               </div>
             </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
           </div>
         </section>
 
