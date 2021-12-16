@@ -13,12 +13,21 @@
   margin-left: -0.5rem;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
 h1 {
   color: #4f4db8;
 }
 
 h2 {
   color: #807ee9;
+}
+
+h5 {
+  margin-bottom: -0.1rem;
 }
 
 h6 {
@@ -35,4 +44,18 @@ h6 {
 
 .card-title {
   color: #807ee9;
+}
+
+.carousel-caption {
+  background-color: hsl(0, 0%, 0%, 0.2);
+  /* width: 58.1rem; */
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  z-index: 10;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  /* margin-inline: -11rem; */
+  color: #fff;
+  text-align: center;
 }
