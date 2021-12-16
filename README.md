@@ -2,7 +2,7 @@
 
 Simple dashboard to keep track of my projects made with Bootstrap4 - for now -.
 
-## Table of content##
+## Table of content
 
 [Purpose](#purpose)
 [Technologies](#technologies)
@@ -20,11 +20,11 @@ To make it simple: **it'll serve as a dashboard for anyone who wants to see what
 
 ## Technologies
 
-- **Bootstrap4** \* _for an quick and easy setup._ \*
+- **Bootstrap4** _for an quick and easy setup._
 
 **Please note that:**
-**I may need to use JS in the future to implement some functionalities**, \* _but for now, we're only creating the V1.0 of Le Hub so we'll see that later !_ \*
+**I may need to use JS in the future to implement some functionalities**,_but for now, we're focusing on the V1.0 of the project so we'll see that later !_
 
 ## Update
 
-**_Last README update: 13/12/2021 - 14:30_**
+**_Last README update: 16/12/2021 - 01:26_**
