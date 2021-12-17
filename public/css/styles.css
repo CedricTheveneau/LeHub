@@ -46,6 +46,10 @@ h6 {
   color: #807ee9;
 }
 
+.card-body {
+  padding: 1rem;
+}
+
 .carousel-caption {
   background-color: hsl(0, 0%, 0%, 0.2);
   /* width: 58.1rem; */
