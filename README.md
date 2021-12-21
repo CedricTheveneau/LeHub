@@ -20,7 +20,7 @@ To make it simple: **it'll serve as a dashboard for anyone who wants to see what
 
 ## Technologies
 
-- **Bootstrap4** _for an quick and easy setup._
+- **Bootstrap4** _for a quick and easy setup._
 
 **Please note that:**
 **I may need to use JS in the future to implement some functionalities**,_but for now, we're focusing on the V1.0 of the project so we'll see that later !_
