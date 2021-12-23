@@ -40,10 +40,13 @@ h6 {
 
 .card-text {
   color: #807ee9;
+  margin-bottom: 0;
+  text-align: justify;
 }
 
 .card-title {
   color: #807ee9;
+  text-align: center;
 }
 
 .card-body {
