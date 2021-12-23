@@ -1,22 +1,4 @@
-.navbar {
-  padding: 0rem;
-}
-
-.header-icons {
-  color: #807ee9;
-  margin-top: -1rem;
-  padding-left: 1rem;
-}
-
-.footer-icons {
-  color: #807ee9;
-  margin-left: -0.5rem;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 0.3rem;
-}
+/* General */
 
 h1 {
   color: #4f4db8;
@@ -34,8 +16,52 @@ h6 {
   color: #807ee9;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+/* header */
+
+.header-icons {
+  color: #807ee9;
+  margin-top: -1rem;
+  padding-left: 1rem;
+}
+
+.navbar {
+  padding: 0rem;
+}
+
+/* Main */
+
+/* Carousel */
+
+.carousel-caption {
+  background-color: hsl(0, 0%, 0%, 0.2);
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  z-index: 10;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Cards */
+
 .card {
   background-color: #3f3f3f;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  color: #807ee9;
+  text-align: center;
 }
 
 .card-text {
@@ -44,28 +70,7 @@ h6 {
   text-align: justify;
 }
 
-.card-title {
-  color: #807ee9;
-  text-align: center;
-}
-
-.card-body {
-  padding: 1rem;
-}
-
-.carousel-caption {
-  background-color: hsl(0, 0%, 0%, 0.2);
-  /* width: 58.1rem; */
-  position: absolute;
-  bottom: 0px;
-  left: 0%;
-  z-index: 10;
-  padding-top: 2px;
-  padding-bottom: 20px;
-  /* margin-inline: -11rem; */
-  color: #fff;
-  text-align: center;
-}
+/* Twitter embed */
 
 .embed-responsive {
   position: relative;
@@ -73,4 +78,11 @@ h6 {
   width: 100%;
   padding: 0;
   overflow: hidden;
+}
+
+/* Footer */
+
+.footer-icons {
+  color: #807ee9;
+  margin-left: -0.5rem;
 }
